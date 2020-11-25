@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <script defer src="auth.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <title>IMA : For an artistic generation</title>
+    <link rel="stylesheet" href="instrument.css">
+    <script src="https://kit.fontawesome.com/09706e65ff.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav class="nav-wraper transparent">
+            <div class="image-container brand-logo left hide-on-med-and-down">
+                <a href="index.html"><img src="IMA_logo.png"
+                        class="logo-img" alt=""></a>
+            </div>
+            <div class="image-container brand-logo right hide-on-large-only">
+                <a href="index.html"><img src="IMA_logo.png"
+                        class="logo-img" alt=""></a>
+            </div>
+            <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                <i class="material-icons black-text">menu</i>
+            </a>
+            <ul class="right navbar-menu hide-on-med-and-down">
+                <li><a href="index.html" class="black-text ">Acceuil</a></li>
+                <li><a href="" class="black-text">Leçons</a></li>
+                <li><a href="#about" class="black-text modal-trigger">Nous Contacter</a></li>
+            </ul>
+            <ul class="sidenav" id="mobile-links">
+                <li><a href="index.html" class="black-text">Acceuil</a></li>
+                <li><a href="" class="black-text">Leçons</a></li>
+                <li><a href="#about" class="black-text modal-trigger">Nous Contacter</a></li>
+            </ul>
+
+            <div class="modal" id="about">
+                <div class="modal-content center black-text">
+                    <h2>Nous Contacter</h2>
+                    <ul class="info-modal">
+                        <li>
+                            <p><i class="material-icons">mail</i>[Test-ùail]@gmail.com</p>
+                        </li>
+                        <li>
+                            <p><i class="material-icons">phone</i>+21359203145</p>
+                        </li>
+                        <li>
+                            <p><i class="material-icons">share</i>InnovationMusicAccademy</p>
+                        </li>
+                        <li>
+                            <p><i class="material-icons">location_on</i>120 Cité évolutif uv5 extension Nouvelle ville,
+                                25016</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+
+
+    </header>
+
+    <div class="view-2">
+        <div class="container-view2 row hide-on-med-and-down">
+        <div class="col l6 img-container-view-2">
+            <img src="Assets/Instruments/wood-music-classic-sound-34221 (1).jpg" alt="" class="img-view-2">
+        </div>
+        <div class="col l6 text-container-view-2">
+            <h2 class="center">Violon</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, distinctio fuga? Eligendi, vitae,
+                expedita architecto tempore molestias ipsum fugit consectetur soluta cum magnam in cumque atque,
+                perferendis harum sunt eos.</p>
+        </div>
+    </div>
+    <div class="container-view-2-mobile hide-on-med-and-up">
+        <div class="col l6 img-container-view-2-mobile">
+            <img src="Assets/Instruments/wood-music-classic-sound-34221 (1).jpg" alt="" class="img-view-2">
+        </div>
+        <div class="col l6 text-container-view-2-mobile">
+            <h3>Violon</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit et libero rem deserunt vel nemo
+                tenetur asperiores provident explicabo inventore maiores vitae excepturi suscipit fugit laudantium,
+                quam dolore? Commodi, similique?</p>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+            $('.modal').modal();
+        })
+    </script>
+</body>
+
+</html>

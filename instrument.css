@@ -1,0 +1,155 @@
+body{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 100;
+    height: 100%;
+}
+html{
+    height: 100%;
+}
+.nav-wraper{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+i{
+    padding: 5px;
+}
+.logo-img{ 
+    width: auto;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    filter: invert(1);
+   }
+   .image-container{
+    height: 100%;
+    width: auto;
+    position: relative;
+}
+.info-modal{
+    display: flex;
+    flex-direction: column;
+    height : 50vh;
+    justify-content: space-evenly;
+}
+.info-modal>li{
+    height:50px;
+}
+.info-modal>li>p{
+    display: flex;
+    justify-content: start;
+    margin-left: 10vw;
+}
+.info-modal>li>p>i{
+    display: inline;
+    margin-right: 2vw;
+}
+.view-1{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-image: url("piano.jpg");
+    backdrop-filter: greyscale(100%);
+    background-size: cover;
+    background-color: brown;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-view-1{
+height: 70vh;
+width: 40vw;
+background-color: white;
+}
+.text-view-1>p{
+    height: auto;
+    font-size: 2vw;
+}
+.row{
+    width: 80vw;
+}
+.image-view-1{
+    height: 70vh;
+    width: 40vw;
+    background-color: black;
+    position: relative;
+}
+.image-view-1>img{
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+
+.view-2{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    background-image: url("piano.jpg");
+    backdrop-filter: greyscale(100%);
+    background-size: cover;
+    background-color: brown;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container-view2{
+    height: 80vh;
+    width: 90vw;
+    margin-left: 5vw;
+}
+.container-view-2-mobile{  
+    height: 80vh;
+    width: 90vw;
+    margin-left: 5vw;
+}
+.img-container-view-2-mobile{
+    height: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.text-container-view-2 > h3, .text-container-view-2-mobile > h3{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+.text-container-view-2 > p {
+font-size: 2rem;
+text-align: center;
+font-weight: 200;
+}
+.text-container-view-2-mobile > p {
+    font-size: 5vw;
+    text-align: center;
+    font-weight: 200;
+    }
+.text-container-view-2-mobile,.text-container-view-2{
+    background-color: white;
+}
+.text-container-view-2{
+    height: 80vh;
+}
+
+.img-container-view-2{
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.img-view-2{
+    object-fit: cover;
+    height: 90%;
+    width: 90%;
+}
