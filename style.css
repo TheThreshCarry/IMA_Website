@@ -46,7 +46,7 @@ i{
     position: relative;
     background-image: url('Assets/Pics/bg-1.jpg');
     background-size: cover;
-    background-color: brown;
+    background-color: black;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -79,8 +79,11 @@ i{
     font-family: 'Anton', sans-serif;
     font-weight: 200; 
 }
+.view3{
+    height: 100%;
+}
 .text-view-3{
-    position: absolute;
+    
     margin: 0;
     height: 15vh;
     display: flex;
@@ -89,7 +92,6 @@ i{
     width: 100vw;
     top: 10%;
     left: 50%;
-    transform: translate(-50%, -50%);
     font-family: 'Anton', sans-serif;
     font-weight: 200; 
 }
@@ -122,19 +124,28 @@ iframe{
     width: 100%;
 }
 .choose-section{
-    position: absolute;
     width: 90vw;
-    height: 35vh;
-    top: 35vh;
-    left: 5vw;
+    margin: auto;
     display: flex;
     justify-content: start;
+    flex-wrap: wrap;
+    margin-bottom: 12rem;
 
 }
+.choose-section > a {
+    width: 33.33%;
+}
+@media screen and (min-width: 768px){
+    .choose-section > a {
+        width: 16.66%;
+    }
+}
+    
+
+
 .instrument{
     position: relative;
     height: 35vh;
-    width: 15vw;
     border: 1px solid black;
     transition: .5s ease;
 }
@@ -180,14 +191,18 @@ iframe{
     background-color: rgb(140 , 140, 140);
 }
 .view-container-3{
-    height: 100vh;
+    height: auto;
     width: 100vw;
-    background-image: url('Assets/Pics/piano.jpg');
+    margin-bottom:12rem;
+    margin-top: 12rem;
+    background-image: url('Assets/Pics/bg.png');
     filter: grayscale(100%);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
     
 }
 .text-container-view-2 > h3, .text-container-view-2-mobile > h3{
